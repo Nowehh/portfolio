@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  /* Light Theme Base Colors */
+  background-color: var(--color-slate-50);
+  color: var(--color-slate-900);
+  @apply antialiased;
+}
